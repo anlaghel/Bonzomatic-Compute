@@ -89,6 +89,9 @@ out:
   FcFontSetDestroy(fs);
   FcObjectSetDestroy(os);
   FcPatternDestroy(pat);
+  if (ret[0] == '\0') {
+    return NULL;
+  }
   return ret;
 }
 

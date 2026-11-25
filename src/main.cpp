@@ -249,6 +249,8 @@ int main(int argc, const char *argv[])
   {
     editorOptions.sFontPath = szDefaultFontPath;
   }
+  editorOptions.sCoderNameFontPath = editorOptions.sFontPath;
+  editorOptions.nCoderNameFontSize = editorOptions.nFontSize;
   editorOptions.nOpacity = 0xC0;
   editorOptions.bUseSpacesForTabs = true;
   editorOptions.nTabSize = 2;
