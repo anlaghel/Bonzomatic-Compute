@@ -5,3 +5,15 @@ build
 build.*
 .vs
 .DS_Store
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+*.a
+*.pc
+*.cmake
+glfw_config.h
+bonzomatic
+core.*
+shader.glsl
