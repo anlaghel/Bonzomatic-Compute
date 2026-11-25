@@ -188,7 +188,7 @@ You'll need ```xorg-dev``` and ```libglu1-mesa-dev```; after that ```cmake``` sh
 ```
 apt install xorg-dev libglu1-mesa-dev cmake
 cd Bonzomatic
-cmake .
+cmake . -DCMAKE_POLICY_VERSION_MINIMUM=3.5
 make
 make install
 ```
